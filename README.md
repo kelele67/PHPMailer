@@ -1,11 +1,11 @@
 ![PHPMailer](https://raw.github.com/PHPMailer/PHPMailer/master/examples/images/phpmailer.png)
 
-## 用PHPMailer替换CodeInigiter的Email类
+## 用PHPMailer替换CodeIgniter的Email类
 
->本项目用PHPMailer完成CodeInigiter框架下的一个简易的用户注册，找回密码邮件发送功能，目的为了解决阿里云平台上邮件无法发送的问题。
+>本项目用PHPMailer完成CodeIgniter框架下的一个简易的用户注册，找回密码邮件发送功能，目的为了解决阿里云平台上邮件无法发送的问题。
 
 在阿里云平台上怎么都无法用smtp发送邮件，各种google都无法解决，遂尝试了PHPMailer，结果成功了。
-可能是CodeInigiter的默认设置的是25端口？(不过我改成465了还是不行)。
+可能是CodeIgniter的默认设置的是25端口？(不过我改成465了还是不行)。
 
 ## 调用Mailer
 在控制器中调用
